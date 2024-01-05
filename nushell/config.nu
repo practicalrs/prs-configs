@@ -8,7 +8,7 @@
 # https://github.com/nushell/nu_scripts/tree/main/themes
 let dark_theme = {
     # color for nushell primitives
-    separator: "#257d10"
+    separator: "#d0d9d7"
     leading_trailing_space_bg: { attr: n } # no fg, no bg, attr none effectively turns this off
     header: { fg: "#257d10" attr: b }
     empty: "#00327b"
@@ -188,7 +188,7 @@ $env.config = {
             info: {}
         },
         table: {
-            split_line: { fg: "#404040" },
+            split_line: { fg: "#040404" },
             selected_cell: { bg: "#00327b" },
             selected_row: {},
             selected_column: {},
@@ -762,7 +762,5 @@ $env.config = {
 }
 
 use ~/.starship.nu
-
-$env.EDITOR = 'hx'
 
 source /home/michal/.config/broot/launcher/nushell/br
