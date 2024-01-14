@@ -30,11 +30,11 @@ palette = 'practicalrs'
 
 [palettes.practicalrs]
 color_onyx = '#040404'
-color_ruby = '#c02310'
+color_ruby = '#af1506'
 color_emerald = '#257d10'
 color_sapphire = '#00327b'
 color_aquamarine = '#3b96bf'
-color_amethyst = '#703b6c'
+color_amethyst = '#5b144b'
 color_topaz = '#bc7800'
 color_diamond = '#d0d9d7'
 
