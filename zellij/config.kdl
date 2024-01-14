@@ -256,12 +256,12 @@ themes {
    practicalrs {
        fg 208 217 215
        bg 4 4 4
-       red 192 35 16
+       red 175 21 6
        green 37 125 16
        yellow 188 120 0
        blue 0 50 123
-       magenta 112 59 108
-       orange 203 145 14
+       magenta 91 20 75
+       orange 202 144 14
        cyan 59 150 191
        black 4 4 4
        white 208 217 215
