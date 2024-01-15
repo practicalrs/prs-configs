@@ -2,9 +2,9 @@
 "diagnostic.hint" = { underline = { color = "emerald4", style = "curl" } }
 "diagnostic.info" = { underline = { color = "sapphire4", style = "curl" } }
 "diagnostic.warning" = { underline = { color = "topaz1", style = "curl" } }
-"error" = { bg = "onyx4", fg = "ruby1", modifiers = ["bold"] }
+"error" = { bg = "onyx3", fg = "ruby1", modifiers = ["bold"] }
 "hint" = { fg = "emerald4", modifiers = ["bold"] }
-"info" = { fg = "sapphire4", bg = "onyx4" }
+"info" = { fg = "sapphire4", bg = "onyx3" }
 "property" = { fg = "ruby1" }
 "warning" = { fg ="topaz1", modifiers = ["bold"] }
 
@@ -16,62 +16,62 @@
 'ui.cursor.select' = { fg = "emerald1", bg = "aquamarine1" }
 'ui.cursorline.primary' = { bg = 'emerald4' }
 'ui.gutter' = { }
-'ui.help' = { bg = "emerald1", fg = "diamond1"}
+'ui.help' = { bg = "onyx3", fg = "diamond1"}
 'ui.highlight' = { bg = "emerald4"}
-'ui.linenr' = { bg = "emerald1", fg = "diamond1"  }
-'ui.linenr.selected' = { bg = "emerald4", fg = "diamond1", modifiers = [ "bold" ] }
-'ui.menu' = { fg = "diamond1", bg = "onyx4" }
+'ui.linenr' = { bg = "onyx3", fg = "diamond1"  }
+'ui.linenr.selected' = { bg = "emerald1", fg = "diamond1", modifiers = [ "bold" ] }
+'ui.menu' = { fg = "diamond1", bg = "onyx3" }
 'ui.menu.selected' = { fg = "diamond1", bg = "topaz4" }
-'ui.popup' = { bg = "onyx4" }
-# 'ui.ppopup.info' = { bg = "emerald4", fg = "onyx4", modifiers = ["bold"] }
-'ui.selection' = { bg = "emerald1" }
-'ui.selection.primary' = { bg = "emerald1" }
-'ui.statusline' = { fg = "diamond1", bg = "emerald1"}
+'ui.popup' = { bg = "onyx3" }
+# 'ui.ppopup.info' = { bg = "emerald4", fg = "onyx3", modifiers = ["bold"] }
+'ui.selection' = { bg = "sapphire1" }
+'ui.selection.primary' = { bg = "sapphire1" }
+'ui.statusline' = { fg = "diamond1", bg = "onyx3"}
 'ui.statusline.inactive' = { fg = "diamond1", bg = "emerald1"}
 "ui.statusline.insert" = { fg = "emerald1", bg = "amethyst4", modifiers = [ "bold" ] }
 "ui.statusline.normal" = { fg = "emerald1", bg = "sapphire4", modifiers = [ "bold" ] }
 "ui.statusline.select" = { fg = "emerald1", bg = "topaz1", modifiers = [ "bold" ] }
 'ui.text' = { fg = "diamond1" }
-'ui.text.focus' = { fg = "diamond1", bg = "onyx4", modifiers = ["bold"] }
+'ui.text.focus' = { fg = "diamond1", bg = "onyx3", modifiers = ["bold"] }
 'ui.text.info' = { }
 'ui.virtual' = { fg = "emerald4" }
 'ui.virtual.ruler' = { bg = "emerald4" }
-'ui.virtual.whitespace' = { fg = "onyx4"}
-'ui.virtual.indent-guide' = { fg = "onyx4" }
+'ui.virtual.whitespace' = { fg = "onyx3"}
+'ui.virtual.indent-guide' = { fg = "onyx3" }
 'ui.window' = { fg = "emerald4" }
 
 'attribute' = { fg = "topaz1" }
-'comment' = { fg = "topaz4", modifiers = ["italic"] }
+'comment' = { fg = "emerald3" }
 'comment.block' = { }
 'comment.block.documentation' = { }
 'comment.line' = { }
-'constant' = { fg = "aquamarine3" }
-'constant.builtin' = { fg = "sapphire4", modifiers = ["bold"] }
+'constant' = { fg = "diamond1" }
+'constant.builtin' = { fg = "topaz1", modifiers = ["bold"] }
 'constant.builtin.boolean' = { }
-'constant.character' = { fg = "emerald4"}
-'constant.character.escape' = { fg = "amethyst1", modifiers = ["bold"] }
-'constant.numeric'  = { fg = "amethyst1"}
+'constant.character' = { fg = "topaz1"}
+'constant.character.escape' = { fg = "topaz1", modifiers = ["bold"] }
+'constant.numeric'  = { fg = "topaz1"}
 # 'constant.numeric.integer' = { }
 # 'constant.numeric.float' = { }
 'diff.delta' = "ruby1"
 # 'diff.delta.moved' = { }
 'diff.minus' = "topaz1"
 'diff.plus' = "emerald1"
-'constructor' = { fg = "sapphire4", modifiers = ["bold"]}
-'function' = { fg = "aquamarine1"}
-'function.builtin' = { fg = "aquamarine1" }
-'function.method' = { fg = "aquamarine1" }
-'function.macro' = { fg = "amethyst4" }
-'function.special' = { fg = "topaz1" }
+'constructor' = { fg = "topaz1", modifiers = ["bold"]}
+'function' = { fg = "topaz4"}
+'function.builtin' = { fg = "topaz4" }
+'function.method' = { fg = "topaz4" }
+'function.macro' = { fg = "topaz4" }
+'function.special' = { fg = "topaz4" }
 'keyword' = { fg = "aquamarine1", modifiers = ["bold"] }
 'keyword.control' = { fg = "aquamarine1", modifiers = ["bold"] }
-'keyword.control.conditional' = { fg = "aquamarine1", modifiers = ["bold"] }
+'keyword.control.conditional' = { fg = "amethyst4", modifiers = ["bold"] }
 'keyword.control.exception' = {fg = "aquamarine1", modifiers = ["bold"] }
 'keyword.control.import' = { fg = "aquamarine1", modifiers = ["italic"] }
-'keyword.control.repeat' = { }
-'keyword.control.return' = { }
+'keyword.control.repeat' = { fg = "amethyst4" }
+'keyword.control.return' = { fg = "amethyst4" }
 'keyword.directive' = { fg = "amethyst4" }
-'keyword.function' = { }
+'keyword.function' = { fg = "aquamarine1" }
 'keyword.operator' = { }
 'label' = { fg = "amethyst1" }
 'markup.bold' = { modifiers = ["bold"] }
@@ -103,27 +103,27 @@
 'markup.raw.inline.completion' = { }
 'markup.raw.inline.hover' = { }
 "markup.strikethrough" = { modifiers = ["crossed_out"] }
-'namespace' = { fg = "sapphire4" }
-'operator' = { fg = "amethyst4", modifiers = ["bold"] }
-'punctuation' =  { fg = "topaz1", modifiers = ["bold"] }
-'punctuation.delimiter' = { fg = "topaz1" }
-'punctuation.bracket' = { fg = "amethyst1" }
+'namespace' = { fg = "emerald4" }
+'operator' = { fg = "diamond1", modifiers = ["bold"] }
+'punctuation' =  { fg = "diamond1", modifiers = ["bold"] }
+'punctuation.delimiter' = { fg = "diamond1" }
+'punctuation.bracket' = { fg = "topaz1" }
 'special' = { fg = "sapphire4"}
-'string' = { fg = "emerald4" }
+'string' = { fg = "topaz1" }
 'string.regexp' = { }
 'string.special' = { fg = "sapphire4" }
 'string.special.path' = { }
 'string.special.symbol' = { }
 'string.special.url' = { }
 'tag' = { fg = "topaz1"}
-'type' = { fg = "topaz1"}
+'type' = { fg = "emerald4"}
 #'type.builtin' = { }
 #'type.enum.variant' = { }
 'variable' = { fg = "aquamarine3" }
-'variable.builtin' = { }
-'variable.function' = { }
-'variable.other.member' = { }
-'variable.parameter' = { }
+'variable.builtin' = { fg = "aquamarine3" }
+'variable.function' = { fg = "aquamarine3" }
+'variable.other.member' = { fg = "aquamarine3" }
+'variable.parameter' = { fg = "aquamarine3" }
 
 [palette]
 onyx1 = "#040404"
