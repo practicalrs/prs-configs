@@ -57,7 +57,7 @@
 # 'diff.delta.moved' = { }
 'diff.minus' = "topaz1"
 'diff.plus' = "emerald1"
-'constructor' = { fg = "topaz1", modifiers = ["bold"]}
+'constructor' = { fg = "emerald4", modifiers = ["bold"]}
 'function' = { fg = "topaz4"}
 'function.builtin' = { fg = "topaz4" }
 'function.method' = { fg = "topaz4" }
@@ -108,7 +108,7 @@
 'punctuation' =  { fg = "diamond1", modifiers = ["bold"] }
 'punctuation.delimiter' = { fg = "diamond1" }
 'punctuation.bracket' = { fg = "topaz1" }
-'special' = { fg = "sapphire4"}
+'special' = { fg = "diamond1"}
 'string' = { fg = "topaz1" }
 'string.regexp' = { }
 'string.special' = { fg = "sapphire4" }
