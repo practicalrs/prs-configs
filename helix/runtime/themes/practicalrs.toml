@@ -1,12 +1,12 @@
-"diagnostic.error" = { underline = { color = "ruby1", style = "curl" } }
-"diagnostic.hint" = { underline = { color = "emerald4", style = "curl" } }
-"diagnostic.info" = { underline = { color = "sapphire4", style = "curl" } }
-"diagnostic.warning" = { underline = { color = "topaz1", style = "curl" } }
-"error" = { bg = "onyx3", fg = "ruby1", modifiers = ["bold"] }
-"hint" = { fg = "emerald4", modifiers = ["bold"] }
-"info" = { fg = "sapphire4", bg = "onyx3" }
-"property" = { fg = "ruby1" }
-"warning" = { fg ="topaz1", modifiers = ["bold"] }
+'diagnostic.error' = { underline = { color = "ruby1", style = "curl" } }
+'diagnostic.hint' = { underline = { color = "emerald4", style = "curl" } }
+'diagnostic.info' = { underline = { color = "sapphire4", style = "curl" } }
+'diagnostic.warning' = { underline = { color = "topaz1", style = "curl" } }
+'error' = { bg = "onyx3", fg = "ruby1", modifiers = ["bold"] }
+'hint' = { fg = "emerald4", modifiers = ["bold"] }
+'info' = { fg = "sapphire4", bg = "onyx3" }
+'property' = { fg = "ruby1" }
+'warning' = { fg ="topaz1", modifiers = ["bold"] }
 
 'ui.background' = { bg = "onyx1"} # Default background color.
 'ui.cursor' = { fg = "emerald1", bg = "diamond1" }
@@ -28,9 +28,9 @@
 'ui.selection.primary' = { bg = "sapphire1" }
 'ui.statusline' = { fg = "diamond1", bg = "onyx3"}
 'ui.statusline.inactive' = { fg = "diamond1", bg = "emerald1"}
-"ui.statusline.insert" = { fg = "emerald1", bg = "amethyst4", modifiers = [ "bold" ] }
-"ui.statusline.normal" = { fg = "emerald1", bg = "sapphire4", modifiers = [ "bold" ] }
-"ui.statusline.select" = { fg = "emerald1", bg = "topaz1", modifiers = [ "bold" ] }
+'ui.statusline.insert' = { fg = "emerald1", bg = "amethyst4", modifiers = [ "bold" ] }
+'ui.statusline.normal' = { fg = "emerald1", bg = "sapphire4", modifiers = [ "bold" ] }
+'ui.statusline.select' = { fg = "emerald1", bg = "topaz1", modifiers = [ "bold" ] }
 'ui.text' = { fg = "diamond1" }
 'ui.text.focus' = { fg = "diamond1", bg = "onyx3", modifiers = ["bold"] }
 'ui.text.info' = { }
@@ -102,7 +102,7 @@
 'markup.raw.inline' = { }
 'markup.raw.inline.completion' = { }
 'markup.raw.inline.hover' = { }
-"markup.strikethrough" = { modifiers = ["crossed_out"] }
+'markup.strikethrough' = { modifiers = ["crossed_out"] }
 'namespace' = { fg = "emerald4" }
 'operator' = { fg = "diamond1", modifiers = ["bold"] }
 'punctuation' =  { fg = "diamond1", modifiers = ["bold"] }
