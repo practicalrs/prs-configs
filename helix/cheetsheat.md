@@ -26,3 +26,14 @@
 * ```v``` - to enter Select mode, where all motions extend the selection
 * ```x``` - to select the entire current line. Type x again to select the next line.
 * ```;``` - to collapse selection
+
+## Chapter 4
+
+* ```u``` to undo
+* ```U``` to redo
+* ```y``` to yank (copy) text
+* ```p``` to paste
+* ```Space``` + ```y``` and ```Space``` + ```p``` to yank / paste on the system clipboard
+* ```/``` to search forward in file
+* ```?``` to search backwards
+* ```n```, ```N``` to cycle through search matches
