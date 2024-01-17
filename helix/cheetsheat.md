@@ -33,7 +33,8 @@
 * ```U``` to redo
 * ```y``` to yank (copy) text
 * ```p``` to paste
-* ```Space``` + ```y``` and ```Space``` + ```p``` to yank / paste on the system clipboard
+* ```Space``` + ```y``` to yank on the system clipboard
+* ```Space``` + ```p``` to paste on the system clipboard
 * ```/``` to search forward in file
 * ```?``` to search backwards
 * ```n```, ```N``` to cycle through search matches
