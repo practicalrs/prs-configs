@@ -1,14 +1,14 @@
-'diagnostic.error' = { underline = { color = "ruby1", style = "curl" } }
+'diagnostic.error' = { underline = { color = "ruby4", style = "curl" } }
 'diagnostic.hint' = { underline = { color = "emerald4", style = "curl" } }
 'diagnostic.info' = { underline = { color = "sapphire4", style = "curl" } }
 'diagnostic.warning' = { underline = { color = "topaz1", style = "curl" } }
-'error' = { bg = "onyx3", fg = "ruby1", modifiers = ["bold"] }
+'error' = { bg = "onyx3", fg = "ruby4", modifiers = ["bold"] }
 'hint' = { fg = "emerald4", modifiers = ["bold"] }
 'info' = { fg = "sapphire4", bg = "onyx3" }
 'property' = { fg = "ruby1" }
 'warning' = { fg ="topaz1", modifiers = ["bold"] }
 
-'ui.background' = { bg = "onyx1"} # Default background color.
+'ui.background' = { bg = "onyx1"}
 'ui.cursor' = { fg = "emerald1", bg = "diamond1" }
 'ui.cursor.insert' = { fg = "emerald1", bg = "aquamarine1" }
 'ui.cursor.match' = { fg = "emerald1", bg = "ruby1", modifiers = ["bold"] }
