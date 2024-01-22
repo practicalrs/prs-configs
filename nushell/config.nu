@@ -761,6 +761,8 @@ $env.config = {
     ]
 }
 
-use ~/.starship.nu
+source ~/.starship.nu
 
-source /home/michal/.config/broot/launcher/nushell/br
+source ~/.config/broot/launcher/nushell/br
+
+source ~/.atuin.nu
