@@ -101,3 +101,4 @@ $env.NU_PLUGIN_DIRS = [
 # $env.PATH = ($env.PATH | split row (char esep) | prepend '/some/path')
 
 $env.EDITOR = 'hx'
+$env.GPG_TTY = (echo (tty))
