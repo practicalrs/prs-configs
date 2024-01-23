@@ -67,7 +67,7 @@
 'keyword.control' = { fg = "aquamarine1", modifiers = ["bold"] }
 'keyword.control.conditional' = { fg = "amethyst4", modifiers = ["bold"] }
 'keyword.control.exception' = {fg = "aquamarine1", modifiers = ["bold"] }
-'keyword.control.import' = { fg = "aquamarine1", modifiers = ["italic"] }
+'keyword.control.import' = { fg = "aquamarine1", modifiers = ["bold"] }
 'keyword.control.repeat' = { fg = "amethyst4" }
 'keyword.control.return' = { fg = "amethyst4" }
 'keyword.directive' = { fg = "amethyst4" }
