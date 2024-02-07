@@ -765,4 +765,4 @@ source ~/.starship.nu
 
 source ~/.config/broot/launcher/nushell/br
 
-source ~/.atuin.nu
+#source ~/.atuin.nu
