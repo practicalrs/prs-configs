@@ -152,9 +152,9 @@ disabled = false
 
 [character]
 disabled = false
-success_symbol = '[](bold fg:color_emerald)'
-error_symbol = '[](bold fg:color_ruby)'
-vimcmd_symbol = '[](bold fg:color_emerald)'
-vimcmd_replace_one_symbol = '[](bold fg:color_amethyst)'
-vimcmd_replace_symbol = '[](bold fg:color_amethyst)'
-vimcmd_visual_symbol = '[](bold fg:color_topaz)'
+success_symbol = '[🦀](bold fg:color_ruby)[>](bold fg:color_emerald)'
+error_symbol = '[🦀](bold fg:color_topaz)[>](bold fg:color_emerald)'
+vimcmd_symbol = '[<](bold fg:color_emerald)'
+vimcmd_replace_one_symbol = '[<](bold fg:color_amethyst)'
+vimcmd_replace_symbol = '[<](bold fg:color_amethyst)'
+vimcmd_visual_symbol = '[<](bold fg:color_topaz)'
