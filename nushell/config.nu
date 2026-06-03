@@ -1,6 +1,6 @@
 # Nushell Config File
 #
-# version = "0.106.1"
+# version = "0.113.1"
 $env.config.color_config = {
     separator: "#d0d9d7"
     leading_trailing_space_bg: { attr: n }
@@ -16,6 +16,11 @@ $env.config.color_config = {
     string: "#d0d9d7"
     nothing: "#d0d9d7"
     binary: "#d0d9d7"
+    binary_null_char: "#d0d9d7"
+    binary_printable: "#d0d9d7"
+    binary_whitespace: "#d0d9d7"
+    binary_ascii_other: "#d0d9d7"
+    binary_non_ascii: "#d0d9d7"
     cell-path: "#d0d9d7"
     row_index: "#257d10"
     record: "#d0d9d7"
